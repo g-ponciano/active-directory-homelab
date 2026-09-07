@@ -110,7 +110,6 @@ Para garantir a estabilidade e segurança da infraestrutura, os seguintes testes
 
 ## 📸 Evidências do Ambiente
 
-*(Adicione os prints das telas do seu laboratório para enriquecer a documentação)*
 
 ### 1. Estrutura de OUs no Active Directory (`DC01`)
 <img width="1920" height="1009" alt="55Parte 28 - Criando uma estrutura mais profissional 2" src="https://github.com/user-attachments/assets/743ea156-173f-4324-8456-092eddff1674" />
