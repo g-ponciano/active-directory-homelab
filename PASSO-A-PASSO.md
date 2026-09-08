@@ -32,7 +32,8 @@ Após a instalação do Oracle VM VirtualBox, download das imagens ISO oficiais 
 * **Disco Rígido:** 40 GB (VDI)
 * **ISO Carregada:** Windows Server 2022 Datacenter Evaluation
 
-![Configuração Inicial da VM DC01 no VirtualBox](<img width="945" height="723" alt="Image" src="https://github.com/user-attachments/assets/f82eb91e-722b-4301-badd-d1812dbaac5f" />)
+![Configuração Inicial da VM DC01 no VirtualBox](<img width="945" height="723" alt="1Parte 1 - Configurações Iniciais 1" src="https://github.com/user-attachments/assets/ce7cc428-810f-40e2-940f-38f2f98708d4" />
+)
 
 ---
 
