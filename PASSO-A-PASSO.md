@@ -933,12 +933,11 @@ E selecionado "lab.local > TI > Computadores".
 
 Com isso, o Active Directory ficou profissional e pronto para receber GPOs direcionadas a setores específicos.
 
-![Print - Parte 28 - Criando uma estrutura mais profissional 4](caminho_do_print.png)
+<img width="1920" height="1009" alt="57Parte 28 - Criando uma estrutura mais profissional 4" src="https://github.com/user-attachments/assets/237e9b95-c759-409c-b4c2-474e1a478158" />
 
 ---
 
-<img width="1920" height="1009" alt="57Parte 28 - Criando uma estrutura mais profissional 4" src="https://github.com/user-attachments/assets/237e9b95-c759-409c-b4c2-474e1a478158" />
-
+## Parte 29 - Criando mais usuários no Active Directory 1
 
 Para criar mais usuários no Active Directory, no "DC01", foi aberto o "Active Directory Users and Computers (dsa.msc)".
 
