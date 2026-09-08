@@ -125,7 +125,8 @@ Em **"DNS Options"**, houve um aviso amarelo informando *"A delegation for this 
 
 Foi selecionado **Next**.
 
-![Print - Promoção do Servidor 3](caminho/para/imagem_parte6_3.png)
+<img width="1920" height="1009" alt="11Parte 6 - Promoção do Servidor 3" src="https://github.com/user-attachments/assets/904afb3d-35be-42e2-81bc-dfb720b69621" />
+
 
 ---
 
@@ -135,7 +136,7 @@ Em **"Additional Options"**, foi mantido o nome NetBIOS pré-preenchido, neste c
 
 Foi selecionado **Next** na tela de **"Paths"** e em **"Review Options"**.
 
-![Print - Promoção do Servidor 4](caminho/para/imagem_parte6_4.png)
+<img width="1920" height="1009" alt="12Parte 6 - Promoção do Servidor 4" src="https://github.com/user-attachments/assets/3daba438-b960-4dad-b442-389f834e1235" />
 
 ---
 
@@ -145,7 +146,7 @@ Em **"Prerequisites Check"**, o assistente fez uma verificação de pré-requisi
 
 Após surgir a mensagem com ícone verde no topo (*"All prerequisite checks passed successfully"*), foi selecionado **Install**.
 
-![Print - Promoção do Servidor 5](caminho/para/imagem_parte6_5.png)
+<img width="1920" height="1009" alt="13Parte 6 - Promoção do Servidor 5" src="https://github.com/user-attachments/assets/cb6e0f95-2d90-40ad-840e-9eadc2e2f4aa" />
 
 ---
 
@@ -163,7 +164,8 @@ Foi digitado o nome **"LAB_Empresa"** e verificado se a opção **"Protect conta
 
 Foi selecionado **OK**, e assim foi criada a primeira pasta da Unidade Organizacional.
 
-![Print - Unidade Organizacional 1](caminho/para/imagem_parte7_1.png)
+<img width="1920" height="1009" alt="14Parte 7 - Unidade Organizacional 1" src="https://github.com/user-attachments/assets/c05ecb43-4cb1-4ac7-be28-b676cbb0729d" />
+
 
 ---
 
@@ -186,7 +188,8 @@ Foram preenchidos os campos de identificação:
 
 Foi selecionado **Next**.
 
-![Print - Unidade Organizacional 2](caminho/para/imagem_parte7_2.png)
+<img width="1920" height="1009" alt="15Parte 7 - Unidade Organizacional 2" src="https://github.com/user-attachments/assets/3e11f7b2-b6c1-41f1-8dd2-c17cf990c315" />
+
 
 ---
 
@@ -201,7 +204,8 @@ Foi selecionado **Next** e depois **Finish**.
 
 Com isso, o usuário `mario.silva@lab.local` já existe no banco de dados e poderá ser usado para fazer login na máquina cliente (Windows 11) assim que for integrada à rede.
 
-![Print - Unidade Organizacional 3](caminho/para/imagem_parte7_3.png)
+<img width="1920" height="1009" alt="16Parte 7 - Unidade Organizacional 3" src="https://github.com/user-attachments/assets/3ac26d83-0c26-43bb-92e9-8ca79d8b5792" />
+
 
 ---
 
@@ -215,7 +219,8 @@ A caixa **DHCP Server** foi marcada.
 
 Na janela pop-up que apareceu, foi selecionado **Add Features** e depois **Next**.
 
-![Print - Função DHCP 1](caminho/para/imagem_parte8_1.png)
+<img width="1920" height="1009" alt="17Parte 8 - Instalando a Função de Servidor DHCP 1" src="https://github.com/user-attachments/assets/a83e50a7-e90c-412e-b8e1-b459181c730b" />
+
 
 ---
 
@@ -225,7 +230,8 @@ Foi selecionado **Next** nas telas de **"Features"** e **"DHCP Server"**, até c
 
 Após a conclusão da instalação, foi selecionado **Close**.
 
-![Print - Função DHCP 2](caminho/para/imagem_parte8_2.png)
+<img width="1920" height="1009" alt="18Parte 8 - Instalando a Função de Servidor DHCP 2" src="https://github.com/user-attachments/assets/9450fc3d-3e44-417f-9c3e-abf36e278074" />
+
 
 ---
 
@@ -233,7 +239,8 @@ Após a conclusão da instalação, foi selecionado **Close**.
 
 No topo do **Server Manager**, foi clicado no ícone da **bandeira com alerta amarelo** e selecionado **Complete DHCP configuration**.
 
-![Print - Autorização DHCP 1](caminho/para/imagem_parte9_1.png)
+<img width="1920" height="1009" alt="19Parte 9 - Autorizando o DHCP no Active Directory 1" src="https://github.com/user-attachments/assets/4aaee6a4-75b9-4afd-8112-c29e71ef3036" />
+
 
 ---
 
@@ -249,4 +256,5 @@ Verificou-se que o status de ambas as etapas aparecia como **"Done"**.
 
 E foi selecionado **Close**.
 
-![Print - Autorização DHCP 2](caminho/para/imagem_parte9_2.png)
+<img width="1920" height="1009" alt="20Parte 9 - Autorizando o DHCP no Active Directory 2" src="https://github.com/user-attachments/assets/cf6a12ae-4c74-4814-9119-ea4375eb5d52" />
+
