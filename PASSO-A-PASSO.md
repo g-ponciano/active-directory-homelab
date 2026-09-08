@@ -40,7 +40,8 @@ Após a instalação do Oracle VM VirtualBox, download das imagens ISO oficiais 
 ### Etapa 02: Resumo da Configuração no VirtualBox
 Validação do sumário de configurações da VM `DC01` antes da primeira inicialização do sistema operacional.
 
-![Resumo da VM no VirtualBox](caminho_da_imagem_aqui)
+![Resumo da VM no VirtualBox](<img width="1919" height="1029" alt="2Parte 1 - Configurações iniciais 2" src="https://github.com/user-attachments/assets/0817e97d-6bc1-4bda-bad1-fc5485366175" />
+)
 
 ---
 
