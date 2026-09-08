@@ -40,8 +40,8 @@ Após a instalação do Oracle VM VirtualBox, download das imagens ISO oficiais 
 ### Etapa 02: Resumo da Configuração no VirtualBox
 Validação do sumário de configurações da VM `DC01` antes da primeira inicialização do sistema operacional.
 
-![Resumo da VM no VirtualBox](<img width="1919" height="1029" alt="2Parte 1 - Configurações iniciais 2" src="https://github.com/user-attachments/assets/0817e97d-6bc1-4bda-bad1-fc5485366175" />
-)
+<img width="1919" height="1029" alt="2Parte 1 - Configurações iniciais 2" src="https://github.com/user-attachments/assets/c0a8c3e5-1366-4595-b573-129cb88a36e6" />
+
 
 ---
 
@@ -51,7 +51,8 @@ Para garantir a segurança do ambiente e evitar que o servidor DHCP do laborató
 * **Modo de Rede:** Alterado de `NAT` para `Rede Interna` (*Internal Network*).
 * **Nome da Rede:** Definido como `LAB_REDE`.
 
-![Configuração da Rede Interna no VirtualBox](caminho_da_imagem_aqui)
+<img width="1919" height="1027" alt="3Parte 2 - Configurando a rede" src="https://github.com/user-attachments/assets/e1d34d64-b26d-4f49-bef7-9d4b57cd7d56" />
+
 
 ---
 
@@ -63,7 +64,9 @@ Durante o assistente de instalação do Windows Server:
   > *Nota:* A opção *Desktop Experience* foi escolhida para fornecer a interface gráfica de usuário (GUI). A opção sem essa marcação instala a versão *Server Core* (operada estritamente via linha de comando).
 * **Configuração de Conta:** Definição da senha de Administrador local do servidor.
 
-![Seleção da ISO Windows Server Desktop Experience](caminho_da_imagem_aqui)
+<img width="624" height="471" alt="4Parte 3 - Instalando o Windows Server 2022" src="https://github.com/user-attachments/assets/adaf85ec-267a-430e-81f3-ca4bcf3dbfd7" />
+
+
 
 ---
 
@@ -73,7 +76,7 @@ No **Server Manager** (Gerenciador do Servidor), foram configuradas as informaç
 * **Nome do Computador:** `DC01`
 * **Descrição do Computador:** `Lab Server`
 
-![Configuração de Nome do Servidor no Server Manager](caminho_da_imagem_aqui)
+<img width="1920" height="1009" alt="5Parte 4 - Server Manager" src="https://github.com/user-attachments/assets/e68404bd-3108-4b6f-ba59-261b3bf988b3" />
 
 ---
 
@@ -85,7 +88,7 @@ Para garantir o funcionamento estável dos serviços de rede corporativos (DNS/A
 * **Gateway Padrão:** *Em branco (Ambiente isolado)*
 * **Servidor DNS Preferencial:** `127.0.0.1` (Apontando para a própria máquina)
 
-![Configuração do IP Estático no Windows Server](caminho_da_imagem_aqui)
+<img width="1920" height="1009" alt="6Parte  4 - Server Manager 2" src="https://github.com/user-attachments/assets/4f1f2857-44ce-4025-a6e5-1afe9ace6b3c" />
 
 ---
 
@@ -96,14 +99,16 @@ No **Server Manager**, navegou-se até `Manage` > `Add Roles and Features`:
 * Na aba **Server Roles**, marcou-se a opção **Active Directory Domain Services**.
 * Na janela pop-up referente aos recursos dependentes, confirmou-se clicando em **Add Features**.
 
-![Instalação da Função AD DS](caminho_da_imagem_aqui)
+<img width="1920" height="1009" alt="7Parte 5 - Active Directory" src="https://github.com/user-attachments/assets/c9fc4d7f-c8ef-4fd0-be12-e3220a029c78" />
+
 
 ---
 
 ### Etapa 08: Conclusão da Instalação das Funções
 Tela de confirmação do término do download e instalação das ferramentas do Active Directory no servidor.
 
-![Conclusão da Instalação do AD DS](caminho_da_imagem_aqui)
+<img width="1920" height="1009" alt="8Parte 5 - Active Directory 2" src="https://github.com/user-attachments/assets/369041b1-29de-4b58-a34c-2c46ea552cfa" />
+
 
 ---
 
@@ -113,7 +118,8 @@ Após a instalação das funções, iniciou-se o assistente de promoção do ser
 * **Operação de Implantação:** Selecionado `Add a new forest` (Adicionar uma nova floresta).
 * **Nome do Domínio Raiz (*Root domain name*):** `lab.local`
 
-![Promoção do Servidor - Nova Floresta](caminho_da_imagem_aqui)
+<img width="1920" height="1009" alt="9Parte 6 - Promoção do Servidor 1" src="https://github.com/user-attachments/assets/0b411b19-8335-4233-83d4-603702efb603" />
+
 
 ---
 
@@ -121,7 +127,8 @@ Após a instalação das funções, iniciou-se o assistente de promoção do ser
 * **Nível Funcional da Floresta/Domínio:** Mantido em `Windows Server 2016` (padrão).
 * **Senha DSRM:** Definição de uma senha forte para o Modo de Restauração dos Serviços de Diretório.
 
-![Opções do Controlador de Domínio e Senha DSRM](caminho_da_imagem_aqui)
+<img width="1920" height="1009" alt="10Parte 6 - Promoção do Servidor 2" src="https://github.com/user-attachments/assets/6eef5d06-81e6-4830-9344-211ba26c0447" />
+
 
 ---
 
@@ -129,7 +136,8 @@ Após a instalação das funções, iniciou-se o assistente de promoção do ser
 Na tela de opções de DNS, o aviso amarelo *"A delegation for this DNS server cannot be created..."* foi exibido. 
 > *Nota:* Este aviso é normal e esperado em um ambiente isolado, pois este é o primeiro e único servidor DNS autoritativo da zona raiz. A mensagem foi ignorada e avançou-se em **Next**.
 
-![Aviso de Delegação de DNS](caminho_da_imagem_aqui)
+<img width="1920" height="1009" alt="11Parte 6 - Promoção do Servidor 3" src="https://github.com/user-attachments/assets/4c9fcb71-085e-4123-a17c-82abd138dfa3" />
+
 
 ---
 
@@ -137,14 +145,16 @@ Na tela de opções de DNS, o aviso amarelo *"A delegation for this DNS server c
 * **Nome NetBIOS:** Confirmado como `LAB`.
 * **Caminhos de Banco de Dados/Logs (SYSVOL):** Mantidos nos diretórios padrão do sistema.
 
-![Configuração de Nome NetBIOS](caminho_da_imagem_aqui)
+<img width="1920" height="1009" alt="12Parte 6 - Promoção do Servidor 4" src="https://github.com/user-attachments/assets/97665b0b-f50d-4b00-8723-3a66982f17e5" />
+
 
 ---
 
 ### Etapa 13: Verificação de Pré-requisitos e Instalação
 O assistente executou a validação de pré-requisitos. Após a confirmação da mensagem verde *"All prerequisite checks passed successfully"*, clicou-se em **Install**. O servidor foi reiniciado automaticamente após o término.
 
-![Verificação de Pré-requisitos com Sucesso](caminho_da_imagem_aqui)
+<img width="1920" height="1009" alt="13Parte 6 - Promoção do Servidor 5" src="https://github.com/user-attachments/assets/272bb941-0ac7-497f-9086-4ec3f68ba306" />
+
 
 ---
 
@@ -156,7 +166,8 @@ Abertura do **Active Directory Users and Computers** (`dsa.msc`):
 2. **Nome da OU:** `LAB_Empresa`.
 3. Garantida a marcação da opção *"Protect container from accidental deletion"* (Proteger contra exclusão acidental).
 
-![Criação da OU LAB_Empresa](caminho_da_imagem_aqui)
+<img width="1920" height="1009" alt="14Parte 7 - Unidade Organizacional 1" src="https://github.com/user-attachments/assets/1134a482-50b6-49b8-9be8-6ca681d6f77a" />
+
 
 ---
 
@@ -169,7 +180,8 @@ Em seguida, na sub-pasta `Usuários`, criou-se o primeiro objeto do tipo Usuári
 * **First Name:** Mario | **Last Name:** Silva
 * **User logon name:** `mario.silva` (`mario.silva@lab.local`)
 
-![Criação do Usuário Mario Silva](caminho_da_imagem_aqui)
+<img width="1920" height="1009" alt="15Parte 7 - Unidade Organizacional 2" src="https://github.com/user-attachments/assets/2a6e0b13-8d9e-4668-b2aa-98d2edfcfd61" />
+
 
 ---
 
@@ -178,7 +190,7 @@ Em seguida, na sub-pasta `Usuários`, criou-se o primeiro objeto do tipo Usuári
 * **Desmarcado:** *User must change password at next logon*.
 * **Marcado:** *Password never expires* (Apenas para otimização das rotinas do laboratório).
 
-![Definição de Senha do Usuário](caminho_da_imagem_aqui)
+<img width="1920" height="1009" alt="16Parte 7 - Unidade Organizacional 3" src="https://github.com/user-attachments/assets/9caf7a57-c3a1-4652-9f80-f0d21122872b" />
 
 ---
 
@@ -189,21 +201,24 @@ No **Server Manager** > `Manage` > `Add Roles and Features`:
 * Marcada a caixa **DHCP Server**.
 * Confirmada a adição dos recursos adicionais de gerenciamento (*Add Features*).
 
-![Instalação da Função DHCP Server](caminho_da_imagem_aqui)
+<img width="1920" height="1009" alt="17Parte 8 - Instalando a Função de Servidor DHCP 1" src="https://github.com/user-attachments/assets/d31c09f5-e002-4e72-ae1e-3e68ebf96b2a" />
+
 
 ---
 
 ### Etapa 18: Finalização da Instalação do DHCP
 Acompanhamento da barra de progresso e conclusão da instalação das ferramentas do DHCP.
 
-![Conclusão da Instalação do DHCP](caminho_da_imagem_aqui)
+<img width="1920" height="1009" alt="18Parte 8 - Instalando a Função de Servidor DHCP 2" src="https://github.com/user-attachments/assets/8e27a2b7-f05a-42e2-961d-d1ce128d5c2c" />
+
 
 ---
 
 ### Etapa 19: Autorização do DHCP no Active Directory (Notificação)
 No topo do Server Manager, clicou-se no ícone da bandeira amarela de alerta e em **Complete DHCP configuration** para vincular o serviço ao AD.
 
-![Notificação para Autorizar o DHCP](caminho_da_imagem_aqui)
+<img width="1920" height="1009" alt="19Parte 9 - Autorizando o DHCP no Active Directory 1" src="https://github.com/user-attachments/assets/902d602a-9f4e-42c8-b066-814bc3b50012" />
+
 
 ---
 
@@ -211,7 +226,8 @@ No topo do Server Manager, clicou-se no ícone da bandeira amarela de alerta e e
 * **Credenciais Utilizadas:** `LAB\Administrator`.
 * Finalização da autorização garantindo o status **Done** nas etapas de criação de grupos de segurança e autorização no controlador de domínio.
 
-![Autorização do DHCP Concluída com Sucesso](caminho_da_imagem_aqui)
+<img width="1920" height="1009" alt="20Parte 9 - Autorizando o DHCP no Active Directory 2" src="https://github.com/user-attachments/assets/808c9aa5-1075-42a4-9c78-736dd489d8b7" />
+
 
 ---
 
@@ -220,7 +236,8 @@ No console de gerenciamento do DHCP (`Tools` > `DHCP`):
 1. Expandido o servidor `dc01.lab.local` > Clique com botão direito em `IPv4` > **New Scope...**
 2. **Nome do Escopo:** `LAB_SCOPE`.
 
-![Criação de Novo Escopo IPv4](caminho_da_imagem_aqui)
+<img width="1920" height="1009" alt="21Parte 10 - Criando o Escopo de IPs (DHCP Scope)" src="https://github.com/user-attachments/assets/84185f94-0162-47e9-9a5e-635707602018" />
+
 
 ---
 
@@ -232,7 +249,8 @@ Configuração do intervalo dinâmico de IPs que serão atribuídos às máquina
 * **Length:** `24`
 * **Subnet Mask:** `255.255.255.0`
 
-![Configuração da Faixa de IP do Escopo](caminho_da_imagem_aqui)
+<img width="1920" height="1009" alt="22Parte 10 - Criando o Escopo de IPs (DHCP Scope) 2" src="https://github.com/user-attachments/assets/7b15595d-9c9e-49cb-8750-21c5cd5222bf" />
+
 
 ---
 
@@ -244,7 +262,8 @@ Configuração do intervalo dinâmico de IPs que serão atribuídos às máquina
 
 > *Nota:* Ao adicionar o IP `192.168.10.1`, o assistente exibe o alerta *"The IP Address is not a valid DNS address..."*. Isso ocorre porque o servidor está em rede isolada sem internet e a consulta de teste falha. Selecionou-se **Yes** para confirmar a inclusão.
 
-![Inclusão do Servidor DNS no Escopo DHCP](caminho_da_imagem_aqui)
+<img width="1920" height="1009" alt="23Parte 10 - Criando o Escopo de IPs (DHCP Scope) 3" src="https://github.com/user-attachments/assets/42550c77-f570-48ae-863b-9cbdbd676e1f" />
+
 
 ---
 
@@ -253,7 +272,8 @@ Configuração do intervalo dinâmico de IPs que serão atribuídos às máquina
 * **WINS Servers:** Mantido em branco.
 * Finalizada a configuração marcando a opção de **Ativar o escopo imediatamente**.
 
-![Remoção de IPs Indesejados e Ativação do Escopo](caminho_da_imagem_aqui)
+<img width="1920" height="1009" alt="24Parte 10 - Criando o Escopo de IPs (DHCP Scope) 4" src="https://github.com/user-attachments/assets/6ea8d8a9-0f03-48d2-9295-a4d5987ce19c" />
+
 
 ---
 
@@ -266,7 +286,8 @@ Criação da máquina virtual no VirtualBox para o sistema operacional cliente:
 * **Desmarcada a opção:** *Proceed with Unattended Installation* (Instalação Não Atendida).
   > *Motivo:* A instalação automatizada do VirtualBox no Windows 11 pode criar usuários genéricos (`vboxuser`) ou causar travamentos em loop na tela OOBE. A instalação manual garante o controle total da criação da conta local temporária.
 
-![Criação da VM PC01 Desmarcando Unattended Installation](caminho_da_imagem_aqui)
+<img width="784" height="527" alt="25Parte 11 - Criação da Máquina Cliente" src="https://github.com/user-attachments/assets/4a36da4f-e5c4-4271-86d9-5c6f8d3c79af" />
+
 
 ---
 
@@ -276,7 +297,8 @@ Antes de ligar o `PC01`, configurou-se a placa de rede para o mesmo segmento vir
 * **Ligado a:** `Rede Interna`
 * **Nome:** `LAB_REDE`
 
-![Ajuste de Rede da VM PC01](caminho_da_imagem_aqui)
+<img width="901" height="486" alt="26Parte 12 - Configurando a Rede da Máquina Cliente" src="https://github.com/user-attachments/assets/0af35cc7-ef3b-4e73-a8db-11a3960e36d8" />
+
 
 ---
 
@@ -286,3 +308,5 @@ Antes de ligar o `PC01`, configurou-se a placa de rede para o mesmo segmento vir
 No `PC01`, abriu-se o Prompt de Comando (`cmd`) para checar as tabelas de rede via comando:
 ```cmd
 ipconfig /all
+
+
