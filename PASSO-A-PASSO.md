@@ -5,7 +5,13 @@ Projeto 1 - Laboratório de Redes e Suporte
 
 1Parte 1 - Configurações Iniciais 1
 
+
+
+
 <img width="945" height="723" alt="1Parte 1 - Configurações Iniciais 1" src="https://github.com/user-attachments/assets/5ce97fe2-ef5d-41d7-be6b-a22da862d80a" />
+
+
+
 
 Após terminar a instalação do VirtualBox, o download das ISOs do Windows Server 2022 e Windows 11 e habilitar a virtualização do processador, foram realizadas as primeiras configurações da VM.
 
